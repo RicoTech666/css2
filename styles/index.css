@@ -1,0 +1,96 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -424px;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+
+  width: 848px;
+  height: 115px;
+
+  font-size: 35px;
+  color: white;
+  line-height: 115px;
+
+  background: #32394A;
+}
+.top .icon-navbankicon {
+  margin-left: 45px;
+
+  font-size: 35px;
+  color: white;
+}
+
+.top span {
+  margin-right: 400px;
+  padding: 0;
+}
+.top .icon-shixingouwuche {
+  margin-right: 45px;
+
+  font-size: 35px;
+  color: white;
+}
+.middle {
+  width: 848px;
+  height: 278px;
+
+  background: no-repeat 0px 0px/100% auto url(../images/IMG_4522.JPG);
+}
+.corner {
+  position: absolute;
+  right: 0;
+  bottom: 218px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 98px;
+  height: 48px;
+}
+.corner-circle-gray {
+  width: 13px;
+  height: 13px;
+  margin: 4px;
+  border-radius: 50%;
+
+  background-color: rgb(50, 60, 62);
+}
+.corner-circle-white {
+  width: 13px;
+  height: 13px;
+  margin: 4px;
+  border-radius: 50%;
+
+  background: rgb(194, 205, 200);
+}
+.bottom {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+  flex-wrap: wrap;
+  width: 848px;
+  height: 218px;
+}
+.tag {
+  width: 240px;
+  height: 75px;
+  border: 2px solid #F8FAF9;
+  border-radius: 80px;
+
+  text-align: center;
+  line-height: 75px;
+  color: black;
+  font-size: 30px;
+
+}
+.tag:hover {
+  background-color: #FF2D50;
+}
