@@ -1,16 +1,14 @@
 .main {
   display: flex;
   flex-direction: column;
-  position: absolute;
-  top: 0;
-  left: 50%;
-  margin-left: -424px;
+
+  width: 100%;
 }
-.top {
+.top-banner {
   display: flex;
   justify-content: space-between;
 
-  width: 848px;
+  width: 100%;
   height: 115px;
 
   font-size: 35px;
@@ -19,25 +17,25 @@
 
   background: #32394A;
 }
-.top .icon-navbankicon {
+.top-banner .icon-navbankicon {
   margin-left: 45px;
 
   font-size: 35px;
   color: white;
 }
 
-.top span {
+.top-banner span {
   margin-right: 400px;
   padding: 0;
 }
-.top .icon-shixingouwuche {
+.top-banner .icon-shixingouwuche {
   margin-right: 45px;
 
   font-size: 35px;
   color: white;
 }
-.middle {
-  width: 848px;
+.middle-picture {
+  width: 100%;
   height: 278px;
 
   background: no-repeat 0px 0px/100% auto url(../images/IMG_4522.JPG);
@@ -70,16 +68,16 @@
 
   background: rgb(194, 205, 200);
 }
-.bottom {
+.bottom-nav {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   
   flex-wrap: wrap;
-  width: 848px;
+  width: 100%;
   height: 218px;
 }
-.tag {
+.food {
   width: 240px;
   height: 75px;
   border: 2px solid #F8FAF9;
@@ -91,6 +89,6 @@
   font-size: 30px;
 
 }
-.tag:hover {
+.food:hover {
   background-color: #FF2D50;
 }
